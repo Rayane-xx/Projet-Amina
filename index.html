@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FemSport – La boutique e-commerce spécialisée dans les articles et vêtements de sport pour femmes." />
+  <title>Accueil – FemSport</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="stylesheet" href="style/nav.css" />
+  <link rel="stylesheet" href="style/home.css" />
+</head>
+<body>
+
+  <!-- En-tête / Barre de navigation -->
+  <div id="main-header"></div>
+
+  <main id="main-content">
+
+    <!-- Section Hero -->
+    <section class="hero" aria-label="Section d'introduction">
+      <div class="hero-content">
+        <span class="hero-tag">Nouvelle collection 2026</span>
+        <h1>L'équipement qui libère votre potentiel</h1>
+        <p>Découvrez notre sélection de vêtements et d'accessoires de sport pour femmes. Alliez performance, confort et style à chaque entraînement.</p>
+        <div class="hero-cta">
+          <a href="content/produits.html" class="btn btn--primary">Découvrir le catalogue</a>
+          <a href="content/produits.html?cat=leggings" class="btn btn--outline">Voir les leggings</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-slider" id="hero-slider">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=800&fit=crop" class="hero-slide active" alt="Mannequin sport 1" />
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=800&fit=crop" class="hero-slide" alt="Mannequin sport 2" />
+          <img src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600&h=800&fit=crop" class="hero-slide" alt="Mannequin sport 3" />
+        </div>
+        <div class="hero-badge">
+          <span class="badge-number">10k+</span>
+          <span class="badge-text">Clientes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bande Avantages -->
+    <div class="benefits-strip" aria-label="Nos avantages">
+      <div class="benefits-list">
+        <div class="benefit-item">
+          <span class="benefit-icon" aria-hidden="true">🚚</span>
+          <div class="benefit-text">
+            <strong>Livraison Gratuite</strong>
+            <span>Dès 5 000 DA d'achats</span>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon" aria-hidden="true">↩️</span>
+          <div class="benefit-text">
+            <strong>Retours Faciles</strong>
+            <span>Sous 30 jours garantis</span>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon" aria-hidden="true">🔒</span>
+          <div class="benefit-text">
+            <strong>Paiement Sécurisé</strong>
+            <span>À la livraison ou par carte</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Catégories -->
+    <section class="categories-section" aria-labelledby="cat-title">
+      <h2 id="cat-title" class="sr-only">Nos Catégories</h2>
+      <div class="categories-grid" id="categories-grid">
+        <!-- Leggings -->
+        <a href="content/produits.html?cat=leggings" class="cat-card">
+          <img src="https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=400&h=520&fit=crop" alt="Leggings de sport" class="cat-card-img" loading="lazy" onerror="this.onerror=null; this.src='https://picsum.photos/seed/leggings/400/520';" />
+          <div class="cat-card-overlay">
+            <span class="cat-card-icon" aria-hidden="true">🩱</span>
+            <h3 class="cat-card-title">Leggings</h3>
+            <span class="cat-card-count">3 Produits</span>
+            <span class="cat-card-arrow" aria-hidden="true">Découvrir →</span>
+          </div>
+        </a>
+        <!-- Brassières -->
+        <a href="content/produits.html?cat=brassieres" class="cat-card">
+          <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=520&fit=crop" alt="Brassières et tops" class="cat-card-img" loading="lazy" onerror="this.onerror=null; this.src='https://picsum.photos/seed/brassieres/400/520';" />
+          <div class="cat-card-overlay">
+            <span class="cat-card-icon" aria-hidden="true">👙</span>
+            <h3 class="cat-card-title">Brassières</h3>
+            <span class="cat-card-count">3 Produits</span>
+            <span class="cat-card-arrow" aria-hidden="true">Découvrir →</span>
+          </div>
+        </a>
+        <!-- Chaussures -->
+        <a href="content/produits.html?cat=chaussures" class="cat-card">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=520&fit=crop" alt="Chaussures de sport" class="cat-card-img" loading="lazy" onerror="this.onerror=null; this.src='https://picsum.photos/seed/chaussures/400/520';" />
+          <div class="cat-card-overlay">
+            <span class="cat-card-icon" aria-hidden="true">👟</span>
+            <h3 class="cat-card-title">Chaussures</h3>
+            <span class="cat-card-count">3 Produits</span>
+            <span class="cat-card-arrow" aria-hidden="true">Découvrir →</span>
+          </div>
+        </a>
+        <!-- Accessoires -->
+        <a href="content/produits.html?cat=accessoires" class="cat-card">
+          <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=520&fit=crop" alt="Accessoires de sport" class="cat-card-img" loading="lazy" onerror="this.onerror=null; this.src='https://picsum.photos/seed/accessoires/400/520';" />
+          <div class="cat-card-overlay">
+            <span class="cat-card-icon" aria-hidden="true">🎽</span>
+            <h3 class="cat-card-title">Accessoires</h3>
+            <span class="cat-card-count">3 Produits</span>
+            <span class="cat-card-arrow" aria-hidden="true">Découvrir →</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- Section Bestsellers (Produits Vedettes) -->
+    <section class="featured-section" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="featured-header">
+          <h2 id="featured-title">Nos Bestsellers</h2>
+          <a href="content/produits.html" class="btn btn--outline">Voir tout le catalogue</a>
+        </div>
+        <!-- Le contenu sera géré dynamiquement par home.js, on prévoit le conteneur -->
+        <div class="featured-grid" id="featured-grid" role="list">
+          <p class="loading-msg">Chargement des produits vedettes...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bannière Promotionnelle -->
+    <section class="promo-banner" aria-label="Offre promotionnelle">
+      <div class="promo-banner-content">
+        <h2>Prête à repousser vos limites ?</h2>
+        <p>Bénéficiez de 15% de réduction sur l'ensemble de votre première commande avec le code promotionnel <strong>BIENVENUE</strong>.</p>
+        <a href="content/produits.html" class="btn btn--outline" style="background-color: var(--clr-white); color: var(--clr-primary); border-color: var(--clr-white);">Profiter de l'offre</a>
+      </div>
+    </section>
+
+    <!-- Section Statistiques -->
+    <section class="stats-section" aria-label="Quelques chiffres">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">12+</span>
+          <span class="stat-label">Produits de haute qualité</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">24h</span>
+          <span class="stat-label">Livraison rapide en Algérie</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">30J</span>
+          <span class="stat-label">Satisfaite ou remboursée</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">4.8</span>
+          <span class="stat-label">Note moyenne de nos clientes</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Newsletter -->
+    <section class="newsletter-section" aria-labelledby="newsletter-title">
+      <div class="newsletter-content">
+        <span class="section-tag">Restez informée</span>
+        <h2 id="newsletter-title">Abonnez-vous à notre newsletter</h2>
+        <p>Recevez nos dernières nouveautés, conseils d'entraînement et offres exclusives directement dans votre boîte mail.</p>
+        <form id="newsletter-form" class="newsletter-form">
+          <label for="newsletter-email" class="sr-only">Votre adresse e-mail</label>
+          <input type="email" id="newsletter-email" placeholder="Votre adresse e-mail" required />
+          <button type="submit" class="btn btn--primary">S'abonner</button>
+        </form>
+        <div id="newsletter-msg" class="newsletter-msg" hidden role="alert"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="index.html" class="footer__logo" aria-label="FemSport accueil">
+          <span class="logo-fem">Fem</span><span class="logo-sport">Sport</span>
+        </a>
+        <p class="footer__tagline">La boutique sport qui vous ressemble.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Navigation boutique">
+        <h3 class="footer__nav-title">Boutique</h3>
+        <ul>
+          <li><a href="content/produits.html?cat=leggings">Leggings</a></li>
+          <li><a href="content/produits.html?cat=brassieres">Brassières</a></li>
+          <li><a href="content/produits.html?cat=chaussures">Chaussures</a></li>
+          <li><a href="content/produits.html?cat=accessoires">Accessoires</a></li>
+        </ul>
+      </nav>
+      <nav class="footer__nav" aria-label="Navigation compte">
+        <h3 class="footer__nav-title">Mon compte</h3>
+        <ul>
+          <li><a href="content/connexion.html">Connexion</a></li>
+          <li><a href="content/inscription.html">Inscription</a></li>
+          <li><a href="content/panier.html">Mon panier</a></li>
+        </ul>
+      </nav>
+      <div class="footer__contact">
+        <h3 class="footer__nav-title">Contact</h3>
+        <address>
+          <p>📍 Tizi-Ouzou, Algérie</p>
+          <p>📧 <a href="mailto:contact@femsport.dz">contact@femsport.dz</a></p>
+        </address>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2025-2026 FemSport. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="javascript/data.js"></script>
+  <script src="javascript/auth.js"></script>
+  <script src="javascript/nav.js"></script>
+  <script src="javascript/panier.js"></script>
+  <!-- home.js n'a pas été fourni, mais d'après l'arborescence il doit être injecté ici -->
+  <script src="javascript/home.js"></script>
+
+</body>
+</html>
